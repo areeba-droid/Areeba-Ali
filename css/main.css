@@ -224,7 +224,7 @@ img {
 .project {
   color: #141414;
   max-width: 30vw;
-  height: 45vh;
+  height: 25vw;
   background-color: #9EB995;
   margin-bottom: 1rem;
   position: relative;
@@ -238,7 +238,7 @@ img {
 .project-middle {
   color: #141414;
   max-width: 30vw;
-  height: 82vh;
+  height: 46vw;
   background-color: #9EB995;
   margin-bottom: 1rem;
   position: relative;
@@ -250,7 +250,7 @@ img {
 .project-dark {
   position: relative;
   max-width: 30vw;
-  height: 35vh;
+  height: 20vw;
   background-color: #37523A;
   margin-bottom: 1rem;
   margin: .5rem;
@@ -260,7 +260,7 @@ img {
 
 .proj-image {
   position: relative;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   align-items: center;
   justify-content: center;
 }
@@ -439,9 +439,15 @@ img {
   margin-left: 10rem;
 }
 
-.section-heading {
+.heading-link {
   font-size: 1.5rem;
   font-weight: bold;
+  text-decoration: none;
+  color: #141414;
+}
+
+.heading-link:hover {
+  font-weight: normal;
 }
 
 .text-img-container{
@@ -526,4 +532,8 @@ footer{
 
 #linkedin, #email {
   margin-right: 0.5rem;
+}
+
+#dark-header {
+  color: #FFF0C7;
 }
