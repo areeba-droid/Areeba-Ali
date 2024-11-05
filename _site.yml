@@ -58,4 +58,4 @@ jobs:
           git add sitemap.xml
           git commit -m "Automated sitemap update" sitemap.xml
           git push
-        fi
+# fi
